@@ -28,10 +28,11 @@ If your github username is JTNearing-broad you would want to rename the folder t
 
 ```git init```
 
-5. Next we want commit our files to this new github project and commit them to the staging area.
+5. Next we want commit our files to this new github project and commit them to the staging area and create a new main branch.
 
 ``` git add . ```
 ``` git commit -m "First commit"```
+```git branch -M main```
 
 6. Now we need to navigate to the github webpage and make a new resposity with the same name as the folder we just made.
 
@@ -41,8 +42,14 @@ If your github username is JTNearing-broad you would want to rename the folder t
 ``` git push -u origin main```
 
 
-8. Wait a few minutes and then navtigate to: ```USERNAME.github.io```
-9. 
+8. Update your new repository so that it builds the website from the ``docs/``` folder.
+
+<img width="857" alt="image" src="https://github.com/nearinj/Template_webpage/assets/31660222/dcbf28d2-47b3-42ac-bcad-36cf646076b4">
+
+
+
+
+9. Wait a minute and then checkout your new webpage at: USERNAME.github.io
 
 
 
