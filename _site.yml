@@ -1,0 +1,15 @@
+name: "X's Personal Website"
+output_dir: "docs"
+navbar:
+  title: "Website Template"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "CV"
+      href: CV.html
+      
+output:
+  html_document:
+    theme: journal
+    margin-top: 0
+
